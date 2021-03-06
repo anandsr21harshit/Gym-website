@@ -64,3 +64,30 @@ body{
     font-weight: bolder;
     cursor: pointer;
 }
+
+/* container*/
+
+.container{
+    border: 3px solid blanchedalmond;
+    width: 37%;
+    margin-top: 100px;
+    margin-left: 40px;
+    padding: 4rem 2rem 4rem 2rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.form-group{
+    padding-bottom: 1rem;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 0.5px;
+}
+#submit{
+    margin-left: 5px;
+}
