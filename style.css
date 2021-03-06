@@ -70,11 +70,15 @@ body{
 .container{
     border: 3px solid blanchedalmond;
     width: 37%;
-    margin-top: 100px;
+    margin-top: 70px;
     margin-left: 40px;
-    padding: 4rem 2rem 4rem 2rem;
+    padding: 0rem 2rem 3rem 2rem;
     border-radius: 1rem;
     text-align: center;
+}
+.container .form-title{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 }
 
 .form-group{
@@ -83,11 +87,32 @@ body{
 .form-group input{
     text-align: center;
     display: block;
+    font-size: 16px;
     width: 80%;
+    padding-top:1rem;
+    padding-bottom: 1rem;
     margin: auto;
     border: 2px solid black;
-    border-radius: 0.5px;
+    border-radius: 8px;
 }
 #submit{
     margin-left: 5px;
+    font-size: large;
+}
+
+.tips{
+    position: absolute;
+    top: 246px;
+    right: 92px;
+    border: 2px solid blanchedalmond;
+    padding: 2rem 2rem 7rem 2rem;
+    background-color: rgb(218, 211, 211);
+    color: black;
+    font-size: 18px;
+}
+.tips-title{
+    text-align: center;
+}
+.tips li{
+    padding-bottom: 1rem;
 }
