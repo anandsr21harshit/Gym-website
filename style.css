@@ -102,13 +102,14 @@ body{
 
 .tips{
     position: absolute;
-    top: 246px;
-    right: 92px;
+    top: 206px;
+    right: 85px;
     border: 2px solid blanchedalmond;
-    padding: 2rem 2rem 7rem 2rem;
+    padding: 1rem 2rem 3rem 2rem;
     background-color: rgb(218, 211, 211);
     color: black;
-    font-size: 18px;
+    font-size: 20px;
+    border-radius: 1rem;
 }
 .tips-title{
     text-align: center;
